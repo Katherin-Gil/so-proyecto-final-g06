@@ -22,3 +22,6 @@
 * Cada integrante hace al menos 2 commits por sprint, con un mensaje que diga qué cambió (por ejemplo: "agrego la partición/var a la ficha"). Nada de "update" ni "cambios".
 * Los videos se graban el día antes del cierre, con las dos VMs encendidas.
 * Si alguien no puede cumplir su parte, lo dice al grupo con tiempo y se reparte.
+
+
+
