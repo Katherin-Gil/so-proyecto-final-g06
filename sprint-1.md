@@ -90,7 +90,7 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 | Katherin | Creó las páginas del sitio, la plantilla y revisó la ficha | 1 |
 | Daniel | Instaló openSUSE Leap y Debian, configuró la red, SSH y las instantáneas | [Número] |
 | Dylan | Instaló las herramientas en Debian, grabó el video y subió las capturas al sitio | [Número] |
-| Samuel | [Qué hizo] | [Número] |
+| Samuel | Instalo Doker y las herramientas para crear el sitio web y montar videos | [Número] |
 
 
 
