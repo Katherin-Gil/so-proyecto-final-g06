@@ -3,7 +3,7 @@
 | Integrante | Rol | Qué hace | Archivos o carpeta propios |
 | :--- | :--- | :--- | :--- |
 | **Katherin** | Coordinación y repositorio | Crea el repositorio, revisa que los commits cumplan, junta las páginas del sitio y entrega el enlace en el campus. | `README.md`, `plan/` |
-| **Daniel** | Máquinas virtuales y red | Instala las dos VMs con particionado manual, configura la red, SSH y las instantáneas. |`sprint-1.md`, carpeta `capturas-vm/` | 
+| **Daniel** | Máquinas virtuales y red | Instala las dos VMs con particionado manual, configura la red, SSH y las instantáneas. |`sprint-1.md`, carpeta `img/` | 
 | **Dylan** | Scripts, procesos y servicios | Configura usuarios, permisos, firewall y escribe los scripts de Bash. | `sprint-2.md`, carpeta `scripts/` |
 | **Samuel** | Docker, Kubernetes y sitio web | Escribe el Dockerfile, el YAML de Kubernetes, y arma el sitio web con los videos. | `sprint-3.md`, carpeta `docker/` |
 
@@ -11,10 +11,10 @@
 
 | Sprint | Cierre | Qué entregamos |
 | :--- | :--- | :--- |
-| **0. Arranque** | Por definir | Repositorio público con la carpeta plan |
-| **1. Montaje** | Por definir | Dos VMs, red, SSH e instantáneas |
-| **2. Servicios** | Por definir | Usuarios, firewall, scripts, procesos y Docker |
-| **3. Cierre** | Por definir | Imagen en Docker Hub, Kubernetes y sitio web |
+| **0. Arranque** | Jueves 19 de noviembre | Repositorio público con la carpeta `plan` |
+| **1. Montaje** | Jueves 26 de noviembre | Dos VMs, red, SSH e instantáneas |
+| **2. Servicios** | Jueves 10 de diciembre | Usuarios, firewall, scripts, procesos y Docker |
+| **3. Cierre** | Jueves 17 de diciembre | Imagen en Docker Hub, Kubernetes y sitio web |
 
 ## Reglas del grupo
 
