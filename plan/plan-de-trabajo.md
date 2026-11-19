@@ -2,7 +2,7 @@
 
 | Integrante | Rol | Qué hace | Archivos o carpeta propios |
 | :--- | :--- | :--- | :--- |
-| **Katherin** | Coordinación y repositorio | Crea el repositorio, revisa que los commits cumplan, junta las páginas del sitio y entrega el enlace en el campus. | `README.md`, `plan/` |
+| **Katherin** | Coordinación y repositorio | Crea el repositorio, revisa que los commits cumplan, junta las páginas del sitio y entrega el enlace en el campus. | `README.md`, `plan/`, `_config_yml` |
 | **Daniel** | Máquinas virtuales y red | Instala las dos VMs con particionado manual, configura la red, SSH y las instantáneas. |`sprint-1.md`, carpeta `img/` | 
 | **Dylan** | Scripts, procesos y servicios | Configura usuarios, permisos, firewall y escribe los scripts de Bash. | `sprint-2.md`, carpeta `scripts/` |
 | **Samuel** | Docker, Kubernetes y sitio web | Escribe el Dockerfile, el YAML de Kubernetes, y arma el sitio web con los videos. | `sprint-3.md`, carpeta `docker/` |
