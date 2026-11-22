@@ -23,12 +23,12 @@ Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`
 * **Particionado durante la instalación (`g06-grafica`):**
   ![Captura 1: editor de particiones durante la instalación](img/Caps%20de%20g06-grafica/01-particiones-grafica-sprint01.png)
 
-* **Verificación de particiones en terminal (`daniel@g06-grafica`):**
+* **Verificación de particiones (`daniel@g06-grafica`):**
   ![Captura 2.1: lsblk, df -h y cat /etc/fstab con prompt y date](img/Caps%20de%20g06-grafica/02.1-particiones-grafica-sprint01.png)
   ![Captura 2.2: salida de df -h y cat /etc/fstab](img/Caps%20de%20g06-grafica/02.2-particiones-grafica-sprint01.png)
   ![Captura 2.3: continuación de cat /etc/fstab](img/Caps%20de%20g06-grafica/02.3-particiones-grafica-sprint01.png)
 
-* **Navegadores y editores abiertos simultáneamente:**
+* **Navegadores y editores abiertos al mismo tiempo:**
   ![Captura 3: los dos navegadores y los dos editores abiertos](img/Caps%20de%20g06-grafica/03-navegadores-editores-grafica-sprint01.png)
 
 ## 2. VM de consola (g06-consola)
@@ -46,7 +46,7 @@ Herramientas instaladas: make, rsync, curl, git y wget.
 
 Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
 
-* **Particionado durante la instalación (`g06-consola`):**
+* **particion durante la instalación (`g06-consola`):**
   ![Particionado manual en instalador de Debian](img/caps%20de%20g06-consola/04-particiondiscos-consola-sprint01.png)
 
 * **Verificación de particiones en terminal (`daniel@g06-consola`):**
@@ -60,11 +60,11 @@ Cada VM tiene dos adaptadores: el 1 en NAT (internet) y el 2 en red solo-anfitri
 
 Comandos: `ip a` en cada VM y `ping` en los dos sentidos.
 
-* **Direcciones IP en ambas máquinas (`ip a`):**
+* **Direcciones IP en ambas VMs (`ip a`):**
   ![Captura 6a: ip a en g06-grafica](img/Caps%20de%20g06-grafica/06-direccionesIP-grafica-sprint01.png)
   ![Captura 6b: ip a en g06-consola](img/caps%20de%20g06-consola/06-direccionesIP-consola-sprint01.png)
 
-* **Pruebas de conectividad (`ping`) en ambos sentidos:**
+* **Pruebas de red (`ping`):**
   ![Captura 7a: ping desde g06-grafica hacia g06-consola](img/Caps%20de%20g06-grafica/07-paquetes-grafica-sprint01.png)
   ![Captura 7b: ping desde g06-consola hacia g06-grafica](img/caps%20de%20g06-consola/07-paquetes-consola-sprint01.png)
 
