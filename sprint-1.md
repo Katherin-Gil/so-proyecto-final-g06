@@ -6,9 +6,9 @@
 - **Qué se entrega en el campus:** el enlace de este sitio.
 - **Qué más:** el video de 3 minutos (al final de esta página), 2 commits por integrante y el archivo `codigo_sprint1.txt` en el home del usuario principal de las dos VMs.
 
-## 1. VM gráfica (g06-grafica) 
+## 1. VM gráfica (g06-grafica)
 
-Instalamos **openSUSE Leap** con particionado manual: `/`, swap y `/home`. No usamos «borrar el disco».
+Instalamos **openSUSE Leap 16.1** con particionado manual: `/`, swap y `/home`. No usamos «borrar el disco».
 
 | Partición | Tamaño | Por qué |
 | :--- | :--- | :--- |
@@ -16,19 +16,24 @@ Instalamos **openSUSE Leap** con particionado manual: `/`, swap y `/home`. No us
 | swap | 2 GB | Igual a la RAM de la VM, por si falta memoria |
 | /home | 8 GB | Los archivos de los usuarios, separados del sistema |
 
-Dos navegadores y dos editores instalados: [Ej: Firefox y Chromium, nano y gedit - *Daniel debe confirmar cuáles instaló*].
+Dos navegadores y dos editores instalados: **Firefox** y **Chromium** (navegadores), **nano** y **Kate** (editores de texto).
 
-Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
+Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`
 
-**[Captura 1: editor de particiones durante la instalación]**
+* **Particionado durante la instalación (`g06-grafica`):**
+  ![Captura 1: editor de particiones durante la instalación](img/Caps%20de%20g06-grafica/01-particiones-grafica-sprint01.png)
 
-**[Captura 2: lsblk, df -h y cat /etc/fstab, con el prompt usuario@g06-grafica y la salida de date]**
+* **Verificación de particiones en terminal (`daniel@g06-grafica`):**
+  ![Captura 2.1: lsblk, df -h y cat /etc/fstab con prompt y date](img/Caps%20de%20g06-grafica/02.1-particiones-grafica-sprint01.png)
+  ![Captura 2.2: salida de df -h y cat /etc/fstab](img/Caps%20de%20g06-grafica/02.2-particiones-grafica-sprint01.png)
+  ![Captura 2.3: continuación de cat /etc/fstab](img/Caps%20de%20g06-grafica/02.3-particiones-grafica-sprint01.png)
 
-**[Captura 3: los dos navegadores y los dos editores abiertos]**
+* **Navegadores y editores abiertos simultáneamente:**
+  ![Captura 3: los dos navegadores y los dos editores abiertos](img/Caps%20de%20g06-grafica/03-navegadores-editores-grafica-sprint01.png)
 
 ## 2. VM de consola (g06-consola)
 
-Instalamos **Debian** con particionado manual: `/`, swap, `/home` y `/var`. Disco de 25 GB y 2 CPU.
+Instalamos **Debian 13.7** con particionado manual: `/`, `/var`, swap y `/home`. Disco de 25 GB y 2 CPU.
 
 | Partición | Tamaño | Por qué |
 | :--- | :--- | :--- |
@@ -39,9 +44,13 @@ Instalamos **Debian** con particionado manual: `/`, swap, `/home` y `/var`. Disc
 
 Herramientas instaladas: make, rsync, curl, git y wget.
 
-Comandos: `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
+Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
 
-**[Captura 4: lsblk, df -h, y cat /etc/fstab de g06-consola, con prompt y fecha]**
+* **Particionado durante la instalación (`g06-consola`):**
+  ![Particionado manual en instalador de Debian](img/caps%20de%20g06-consola/04-particiondiscos-consola-sprint01.png)
+
+* **Verificación de particiones en terminal (`daniel@g06-consola`):**
+  ![Captura 4: lsblk, df -h y cat /etc/fstab de g06-consola](img/caps%20de%20g06-consola/05-particiones-consola-sprint01.png)
 
 **[Captura 5: las cinco herramientas mostrando su versión]**
 
@@ -51,25 +60,27 @@ Cada VM tiene dos adaptadores: el 1 en NAT (internet) y el 2 en red solo-anfitri
 
 Comandos: `ip a` en cada VM y `ping` en los dos sentidos.
 
-**[Captura 6: ip a en las dos VMs, mostrando una dirección en cada interfaz]**
+* **Direcciones IP en ambas máquinas (`ip a`):**
+  ![Captura 6a: ip a en g06-grafica](img/Caps%20de%20g06-grafica/06-direccionesIP-grafica-sprint01.png)
+  ![Captura 6b: ip a en g06-consola](img/caps%20de%20g06-consola/06-direccionesIP-consola-sprint01.png)
 
-**[Captura 7: ping de la gráfica a la consola y de la consola a la gráfica]**
+* **Pruebas de conectividad (`ping`) en ambos sentidos:**
+  ![Captura 7a: ping desde g06-grafica hacia g06-consola](img/Caps%20de%20g06-grafica/07-paquetes-grafica-sprint01.png)
+  ![Captura 7b: ping desde g06-consola hacia g06-grafica](img/caps%20de%20g06-consola/07-paquetes-consola-sprint01.png)
 
 ## 4. SSH
 
-Entramos por SSH desde la VM gráfica a la VM de consola.
+Entramos por SSH desde la VM gráfica (`g06-grafica`) a la VM de consola (`g06-consola`).
 
-Comando: `ssh usuario@direccion-de-la-consola`
+Comando: `ssh daniel@192.168.56.102`
 
-**[Captura 8: la sesión SSH abierta, con el prompt de la consola]**
+![Captura 8: sesión SSH abierta con el prompt de g06-consola](img/Caps%20de%20g06-grafica/08-hostname-grafica-sprint01.png)
 
 ## 5. Instantáneas
 
 Una por VM, llamada `instalacion-limpia`, tomada con la VM apagada y la instalación terminada.
 
-**[Captura 9: pestaña de instantáneas de g06-grafica]**
-
-**[Captura 10: pestaña de instantáneas de g06-consola]**
+![Capturas 9 y 10: pestaña de instantáneas instalacion-limpia en g06-grafica y g06-consola](img/09-instantaneas-virtualbox-sprint01.png)
 
 ## Código del sprint
 
@@ -88,9 +99,6 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 | Integrante | Qué hizo | Commits |
 | :--- | :--- | :--- |
 | Katherin | Creó las páginas del sitio, la plantilla y revisó la ficha | 1 |
-| Daniel | Instaló openSUSE Leap y Debian, configuró la red, SSH y las instantáneas | [Número] |
-| Dylan | Instaló las herramientas en Debian, grabó el video y subió las capturas al sitio | [Número] |
-| Samuel | Instalo Doker y las herramientas para crear el sitio web y montar videos | [Número] |
-
-
-
+| Daniel | Instaló openSUSE Leap y Debian, configuró la red, SSH, las instantáneas y subió las capturas | 3 |
+| Dylan | Instaló las herramientas en Debian, grabó el video y completó las validaciones | [Número] |
+| Samuel | [Qué hizo] | [Número] |
