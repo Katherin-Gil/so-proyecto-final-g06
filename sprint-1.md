@@ -23,7 +23,8 @@ Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`
 * **Particionado durante la instalación (`g06-grafica`):**
   ![Captura 1: editor de particiones durante la instalación](img/Caps%20de%20g06-grafica/01-particiones-grafica-sprint01.png)
 
-* **Verificación de particiones (`daniel@g06-grafica`):**
+* **Verificación de particiones (`daniel@g06-grafica`):
+* **
   ![Captura 2.1: lsblk, df -h y cat /etc/fstab con prompt y date](img/Caps%20de%20g06-grafica/02.1-particiones-grafica-sprint01.png)
   ![Captura 2.2: salida de df -h y cat /etc/fstab](img/Caps%20de%20g06-grafica/02.2-particiones-grafica-sprint01.png)
   ![Captura 2.3: continuación de cat /etc/fstab](img/Caps%20de%20g06-grafica/02.3-particiones-grafica-sprint01.png)
