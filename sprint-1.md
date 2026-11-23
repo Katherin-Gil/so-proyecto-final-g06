@@ -101,5 +101,5 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 | :--- | :--- | :--- |
 | Katherin | Creó las páginas del sitio, la plantilla y revisó la ficha | 1 |
 | Daniel | Instaló openSUSE Leap y Debian, configuró la red, SSH, las instantáneas y subió las capturas | 3 |
-| Dylan | Instaló las herramientas en Debian, grabó el video y completó las validaciones | [Número] |
+| Dylan | Instaló las herramientas en Debian, grabó el video y completó las validaciones | 10 | [Ir al Sprint 1.1](Sprint-1.1.md)
 | Samuel | [Qué hizo] | [Número] |
