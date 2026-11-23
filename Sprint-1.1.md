@@ -34,10 +34,16 @@ sudo apt install -y make rsync
 ![instalar make y rsync](img/Dylan-Caps-SO-Sprint1_Install/supo%20apt%20install%20-y%20make%20y%20rsync.png)
 
 **make** (CAP individual):
+```bash
+sudo apt install -y make 
+```
 
 ![instalar make](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20make.png)
 
 **rsync** (CAP individual):
+```bash
+sudo apt install -y rsync 
+```
 
 ![instalar rsync](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20rsync.png)
 
@@ -71,7 +77,6 @@ Después de instalar cada herramienta, se verifica que quedó funcionando mostra
 
 ```bash
 git --version && date
-date
 ```
 
 Muestra la versión de Git instalada y la fecha actual del sistema.
@@ -82,7 +87,6 @@ Muestra la versión de Git instalada y la fecha actual del sistema.
 
 ```bash
 wget --version && date
-date
 ```
 
 Confirma que `wget` está instalado y muestra su versión.
@@ -97,7 +101,6 @@ Confirma que `wget` está instalado y muestra su versión.
 
 ```bash
 make --version && date
-date
 ```
 
 Confirma que `make` está instalado y muestra su versión.
@@ -108,7 +111,6 @@ Confirma que `make` está instalado y muestra su versión.
 
 ```bash
 rsync --version && date
-date
 ```
 
 Confirma que `rsync` está instalado y muestra su versión.
