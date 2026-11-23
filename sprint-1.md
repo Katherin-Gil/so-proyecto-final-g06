@@ -53,7 +53,7 @@ Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync -
 * **Verificación de particiones en terminal (`daniel@g06-consola`):**
   ![Captura 4: lsblk, df -h y cat /etc/fstab de g06-consola](img/caps%20de%20g06-consola/05-particiones-consola-sprint01.png)
 
-**[Captura 5: las cinco herramientas mostrando su versión]**
+[Capturas de herramientas](Sprint-1.1.md) //CAPTURAS DE PANTALLA DE LA INSTALACION DE LAS HERRAMIENTAS DYLAN
 
 ## 3. Red
 
@@ -105,4 +105,4 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 | Samuel | [Qué hizo] | [Número] |
 
 
-[Ir al Sprint 1.1](Sprint-1.1.md) //CAPTURAS DE PANTALLA DE LA INSTALACION DE LAS HERRAMIENTAS DYLAN
+
