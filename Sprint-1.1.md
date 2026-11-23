@@ -10,7 +10,7 @@ sudo apt update
 
 Actualiza el índice de paquetes disponibles para que `apt` instale las versiones más recientes. Se ejecuta antes de instalar cualquier cosa.
 
-![sudo apt update](../img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20update.png)
+![sudo apt update](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20update.png)
 
 ### 2. Instalar git
 
@@ -20,7 +20,7 @@ sudo apt install -y git
 
 Instala Git, el sistema de control de versiones que usamos para trabajar en equipo y subir el proyecto a GitHub.
 
-![instalar git](../img/Dylan-Caps-SO-Sprint1_Install/supo%20apt%20install%20-y%20git%20.png)
+![instalar git](img/Dylan-Caps-SO-Sprint1_Install/supo%20apt%20install%20-y%20git%20.png)
 
 ### 3. Instalar make y rsync
 
@@ -31,15 +31,15 @@ sudo apt install -y make rsync
 - **make**: automatiza la compilación y tareas del proyecto leyendo un archivo `Makefile`.
 - **rsync**: copia y sincroniza archivos entre carpetas o equipos, transfiriendo solo lo que cambió.
 
-![instalar make y rsync](../img/Dylan-Caps-SO-Sprint1_Install/supo%20apt%20install%20-y%20make%20y%20rsync.png)
+![instalar make y rsync](img/Dylan-Caps-SO-Sprint1_Install/supo%20apt%20install%20-y%20make%20y%20rsync.png)
 
 **make** (CAP individual):
 
-![instalar make](../img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20make.png)
+![instalar make](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20make.png)
 
 **rsync** (CAP individual):
 
-![instalar rsync](../img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20rsync.png)
+![instalar rsync](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20rsync.png)
 
 ### 4. Instalar wget
 
@@ -49,7 +49,7 @@ sudo apt install -y wget
 
 Descarga archivos desde internet directamente desde la terminal.
 
-![instalar wget](../img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20wget.png)
+![instalar wget](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20wget.png)
 
 ### 5. Instalar curl
 
@@ -59,7 +59,7 @@ sudo apt install -y curl
 
 Transfiere datos desde o hacia un servidor usando URLs. Sirve para descargar archivos y probar APIs.
 
-![instalar curl](../img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20curl.png)
+![instalar curl](img/Dylan-Caps-SO-Sprint1_Install/sudo%20apt%20install%20-y%20curl.png)
 
 
 
@@ -76,7 +76,7 @@ date
 
 Muestra la versión de Git instalada y la fecha actual del sistema.
 
-![git version y date](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/git%20date%20y%20version.png)
+![git version y date](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/git%20date%20y%20version.png)
 
 ### 2. wget
 
@@ -87,11 +87,11 @@ date
 
 Confirma que `wget` está instalado y muestra su versión.
 
-![wget version y date](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/wget%20date%20y%20version.png)
+![wget version y date](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/wget%20date%20y%20version.png)
 
 **git y wget** (captura conjunta):
 
-![git y wget version y date](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/git%20y%20wget%20version%20y%20date.png)
+![git y wget version y date](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/git%20y%20wget%20version%20y%20date.png)
 
 ### 3. make
 
@@ -102,7 +102,7 @@ date
 
 Confirma que `make` está instalado y muestra su versión.
 
-![make version y date](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/Make%20date%20y%20version.png)
+![make version y date](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/Make%20date%20y%20version.png)
 
 ### 4. rsync
 
@@ -113,7 +113,7 @@ date
 
 Confirma que `rsync` está instalado y muestra su versión.
 
-![rsync version y date](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/rsync%20date%20y%20version.png)
+![rsync version y date](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/rsync%20date%20y%20version.png)
 
 ### 5. curl
 
@@ -123,13 +123,13 @@ curl --version && date
 
 Confirma que `curl` está instalado y muestra su versión.
 
-![curl version y date](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/curl%20date%20y%20version.png)
+![curl version y date](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/curl%20date%20y%20version.png)
 
 ### 6. Confirmación general
 
 Captura conjunta de make, rsync y curl con la fecha, como confirmación final de que todas las herramientas quedaron instaladas.
 
-![make, rsync, curl, date y confirmacion](../img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/Make%2C%20rsync%20curl%20Date%20y%20confirmacion.png)
+![make, rsync, curl, date y confirmacion](img/Dylan-Caps-SO-Sprint1_Vesion%3ADate/Make%2C%20rsync%20curl%20Date%20y%20confirmacion.png)
 
 
 
