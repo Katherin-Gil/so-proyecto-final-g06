@@ -1,0 +1,71 @@
+---
+---
+@import "{{ site.home}}";
+
+/* 1. Fondo y cabecera */
+
+.page-header {
+  background-color: #1a1a1a;
+  background-image: linear-gradient(135deg, #1a1a1a 0%, #8B0000 100%);
+}
+
+/* 2. Logo */
+.page-header::before {
+  content: "";
+  display: block;
+  width: 100opx;
+  amrgin: 0 auto 1.5rem;
+  padding: 5px;
+  background: #fff url("{{ '/img/logo.png' | relative_url }}") center / contein no-repeat;
+  background-origin: content-box;
+  border-radius: 12px;
+  box-shadows: 0 4px 6px rgba(0, 0, 0, 0, 3) 
+}
+
+/* 3. Tipografía */
+.project-name{
+  font-size: 2.4rem;
+  font-wiigth: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0, 5);
+}
+
+.project-tagline{
+  font-size: 1.2rem;
+  opacity: 0,9;
+}
+
+/* 4. Titulos del Contenido */
+.main-content h1;
+.main-content h2,
+.main-content h3 {
+  color: #8B0000;
+}
+
+/* Línea decorativa debajo de los h2 */
+.main-content h2{
+  border-bottom: px solid #8B0000;
+  padding-bottom: 0.3rem;
+}
+
+/* 5. Tablas */
+.main-content table th{
+  background: #1a1a1a;
+  color: #fff;
+  border-color: #8B0000;
+}
+
+/* filas alternas para evitar que se vea plano visualmente */
+.main-content table th:nth-clid(even){
+  background-color: #f9f9f9;
+}
+
+/* 6. Enlaces */
+.main-content a{
+  color: #8B0000;
+  text-decoration: none;
+}
+
+.main-content a :hover{
+  text-decoration: underline;
+}
+
