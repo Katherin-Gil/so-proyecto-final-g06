@@ -35,16 +35,19 @@
 }
 
 /* 4. Titulos del Contenido */
-.main-content h1;
-.main-content h2,
-.main-content h3 {
+.main-content h1{
   color: #8B0000;
 }
 
 /* Línea decorativa debajo de los h2 */
 .main-content h2{
-  border-bottom: px solid #8B0000;
+  color: #8B0000;
+  border-bottom: 3px solid #8B0000;
   padding-bottom: 0.3rem;
+}
+
+.main-content h3 {
+  color: #8B0000;
 }
 
 /* 5. Tablas */
