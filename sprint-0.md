@@ -14,33 +14,33 @@
 4. Lo marcamos como **Public**.
 5. Pulsamos **Create repository**.
 
-**[Captura 1: Creación del repositorio en GitHub]**
+* **Creación del repositorio en GitHub**
 ![Captura 1: Creación del repositorio en GitHub](img/Caps%20sprint0/cap1_sprint0.jpg)
 
 Todos los integrantes necesitan acceso para hacer commits: la coordinadora los agregó en **Settings → Collaborators**.
 
-**[Captura 2: Lista de colaboradores del repositorio]**
+* **Lista de colaboradores del repositorio**
 ![Captura 2: Lista de colaboradores del repositorio](img/Caps%20sprint0/cap2_sprint0.jpg)
 
 ## Paso 2. Crear la carpeta plan y los archivos
 
 Creamos la carpeta `plan` y dentro de ella subimos los dos archivos `.md` que pide el proyecto.
 
-**[Captura 3: La carpeta plan en el repositorio con los archivos]**
+* **Archivos de la carpeta plan**
 ![Captura 3: La carpeta plan en el repositorio con los archivos](img/Caps%20sprint0/cap3_sprint0.jpg)   
 
 ## Paso 3. Verificar el plan de trabajo
 
 El archivo `plan/plan-de-trabajo.md` contiene la tabla con los roles de cada integrante, los archivos que son suyos y las fechas de cierre de los sprints.
 
-**[Captura 4: Verificar el plan de trabajo en GitHub]**
+* **Archivo plan de trabajo**
 ![Captura 4: Verificar el plan de trabajo en GitHub](img/Caps%20sprint0/cap4_sprint0.jpg)
 
 ## Paso 4. Verificar la ficha de versión
 
 El archivo `plan/ficha-version.md` contiene la verificación de las distribuciones asignadas (openSUSE Leap, Debian y AlmaLinux), con sus respectivos enlaces oficiales.
 
-**[Captura 5: Verificar la ficha de versión en GitHub]**
+* **Archivo ficha de versión**
 ![Captura 5: Verificar la ficha de versión en GitHub](img/Caps%20sprint0/cap5_sprint0.jpg)
 
 
