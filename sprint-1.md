@@ -21,16 +21,20 @@ Dos navegadores y dos editores instalados: **Firefox** y **Chromium** (navegador
 Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`
 
 * **Particionado durante la instalación (`g06-grafica`):**
-  ![Captura 1: editor de particiones durante la instalación](img/Caps%20de%20g06-grafica/01-particiones-grafica-sprint01.png)
+  
+![Captura 1: editor de particiones durante la instalación](img/Caps%20de%20g06-grafica/01-particiones-grafica-sprint01.png)
 
-* **Verificación de particiones (`daniel@g06-grafica`):
-* **
-  ![Captura 2.1: lsblk, df -h y cat /etc/fstab con prompt y date](img/Caps%20de%20g06-grafica/02.1-particiones-grafica-sprint01.png)
-  ![Captura 2.2: salida de df -h y cat /etc/fstab](img/Caps%20de%20g06-grafica/02.2-particiones-grafica-sprint01.png)
-  ![Captura 2.3: continuación de cat /etc/fstab](img/Caps%20de%20g06-grafica/02.3-particiones-grafica-sprint01.png)
+* **Verificación de particiones (`daniel@g06-grafica`):**
+  
+![Captura 2.1: lsblk, df -h y cat /etc/fstab con prompt y date](img/Caps%20de%20g06-grafica/02.1-particiones-grafica-sprint01.png)
+
+![Captura 2.2: salida de df -h y cat /etc/fstab](img/Caps%20de%20g06-grafica/02.2-particiones-grafica-sprint01.png)
+
+![Captura 2.3: continuación de cat /etc/fstab](img/Caps%20de%20g06-grafica/02.3-particiones-grafica-sprint01.png)
 
 * **Navegadores y editores abiertos al mismo tiempo:**
-  ![Captura 3: los dos navegadores y los dos editores abiertos](img/Caps%20de%20g06-grafica/03-navegadores-editores-grafica-sprint01.png)
+  
+![Captura 3: los dos navegadores y los dos editores abiertos](img/Caps%20de%20g06-grafica/03-navegadores-editores-grafica-sprint01.png)
 
 ## 2. VM de consola (g06-consola)
 
@@ -47,11 +51,13 @@ Herramientas instaladas: make, rsync, curl, git y wget.
 
 Comandos: `date`, `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
 
-* **particion durante la instalación (`g06-consola`):**
-  ![Particionado manual en instalador de Debian](img/caps%20de%20g06-consola/04-particiondiscos-consola-sprint01.png)
+* **Particionado durante la instalación (`g06-consola`):**
+  
+![Particionado manual en instalador de Debian](img/caps%20de%20g06-consola/04-particiondiscos-consola-sprint01.png)
 
 * **Verificación de particiones en terminal (`daniel@g06-consola`):**
-  ![Captura 4: lsblk, df -h y cat /etc/fstab de g06-consola](img/caps%20de%20g06-consola/05-particiones-consola-sprint01.png)
+  
+![Captura 4: lsblk, df -h y cat /etc/fstab de g06-consola](img/caps%20de%20g06-consola/05-particiones-consola-sprint01.png)
 
 [Capturas de herramientas](Sprint-1.1.md) //CAPTURAS DE PANTALLA DE LA INSTALACION DE LAS HERRAMIENTAS DYLAN
 
@@ -99,7 +105,7 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 
 | Integrante | Qué hizo | Commits |
 | :--- | :--- | :--- |
-| Katherin | Creó las páginas del sitio, la plantilla y revisó la ficha | 1 |
+| Katherin | Creó las páginas del sitio, organizó las capturas y ajustó el formato | 2 |
 | Daniel | Instaló openSUSE Leap y Debian, configuró la red, SSH, las instantáneas y subió las capturas | 3 |
 | Dylan | Instaló las herramientas en Debian, grabó el video y completó las validaciones | 10 | 
 | Samuel | Instalación de doker engine y funcionando, revision de versiones y pruebas de creación, implementación SO Linux (Ubuntu) | 1 |
