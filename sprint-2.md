@@ -65,14 +65,14 @@ Comandos: `ps -eo pid,ppid,stat,comm`, `top`, `pstree -p`, `pgrep -l [proceso]`,
 
 ## 8. Docker Engine
 * **Paso 1: Revision y desinstalación de paquetes en conflicto.**
-Revisa la lista que muestra apt antes de confirmar.
-<img width="1686" height="1051" alt="imagen" src="https://github.com/user-attachments/assets/12990098-6828-4bef-bbda-4f489ac3d1ac" />
+
 
 * **Paso 2: Configurar repositorio oficial.**
 * Primero, agrega la clave GPG de Docker:
-<img width="1682" height="1051" alt="imagen" src="https://github.com/user-attachments/assets/e4395570-cf8b-484e-9ecf-399b21dafa38" />
+<img width="1680" height="1050" alt="imagen" src="https://github.com/user-attachments/assets/84f6d0fb-8064-4209-a680-745158b54672" />
 
-* Luego se agrega el repositorio:
+* **Paso 3: Instalar Docker Engine:**
+
 
 
 
