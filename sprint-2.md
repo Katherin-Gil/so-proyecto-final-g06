@@ -64,10 +64,16 @@ Comandos: `ps -eo pid,ppid,stat,comm`, `top`, `pstree -p`, `pgrep -l [proceso]`,
 ![Captura 8: procesos en estado R, S, T y Z con ps]()
 
 ## 8. Docker Engine
-Instalamos Docker Engine siguiendo la guía oficial para Debian. Luego, agregamos el usuario principal al grupo `docker` para poder ejecutar comandos sin `sudo`. Es importante aclarar que pertenecer a este grupo equivale a tener privilegios de administrador (root), ya que permite montar el sistema de archivos del host dentro de un contenedor. Tras cerrar sesión y volver a entrar para aplicar los cambios, habilitamos el servicio, corrimos la imagen `hello-world` y verificamos dónde guarda Docker sus datos.
-Comandos: `sudo apt install docker-ce docker-ce-cli containerd.io...` (o la guía oficial), `sudo usermod -aG docker $USER`, `docker version`, `docker run hello-world`, `docker info | grep "Docker Root Dir"`, `df -h /var/lib/docker`.
-* **Revision y desinstalación de paquetes en conflicto:**
+* **Paso 1: Revision y desinstalación de paquetes en conflicto.**
+Revisa la lista que muestra apt antes de confirmar.
 <img width="1686" height="1051" alt="imagen" src="https://github.com/user-attachments/assets/12990098-6828-4bef-bbda-4f489ac3d1ac" />
+
+* **Paso 2: Configurar repositorio oficial.**
+* Primero, agrega la clave GPG de Docker:
+<img width="1682" height="1051" alt="imagen" src="https://github.com/user-attachments/assets/e4395570-cf8b-484e-9ecf-399b21dafa38" />
+
+* Luego se agrega el repositorio:
+
 
 
 * **Docker funcionando sin sudo y hello-world:**
