@@ -72,12 +72,11 @@ Comandos: `ps -eo pid,ppid,stat,comm`, `top`, `pstree -p`, `pgrep -l [proceso]`,
 <img width="1680" height="1050" alt="imagen" src="https://github.com/user-attachments/assets/84f6d0fb-8064-4209-a680-745158b54672" />
 
 * **Paso 3: Instalar Docker Engine:**
+* **Paso 4: Usar Docker sin $sudo:**
+* **Paso 5: Habilitar servicio:**
+* **Paso 6: Verificar la instalación:**
+* **Paso 7: Ver donde Docker guarda los datos:**
 
-
-
-
-* **Docker funcionando sin sudo y hello-world:**
-![Captura 9: docker version, hello-world y Docker Root Dir]()
 
 ## Código del sprint
 El docente publicó el código en el campus 48 horas antes del cierre. Lo guardamos en la VM de consola y lo mostramos en el video.
@@ -96,6 +95,6 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 | Katherin | Creó las páginas del sitio, la plantilla y revisó la ficha | 1 |
 | Daniel | [Qué hizo] | [Número] |
 | Dylan | [Qué hizo] | [Número] |
-| Samuel | [Qué hizo] | [Número] |
+| Samuel | Instalación, creacion de repositorio, capturas de imagen, purebas con YAML | 7 |
 
 
