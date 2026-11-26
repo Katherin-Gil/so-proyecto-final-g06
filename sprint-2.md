@@ -69,7 +69,6 @@ Comandos: `ps -eo pid,ppid,stat,comm`, `top`, `pstree -p`, `pgrep -l [proceso]`,
 
 
 * **Paso 2: Configurar repositorio oficial.**
-* Primero, agrega la clave GPG de Docker:
 <img width="1680" height="1050" alt="imagen" src="https://github.com/user-attachments/assets/84f6d0fb-8064-4209-a680-745158b54672" />
 
 * **Paso 3: Instalar Docker Engine:**
