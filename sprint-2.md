@@ -65,6 +65,7 @@ Comandos: `ps -eo pid,ppid,stat,comm`, `top`, `pstree -p`, `pgrep -l [proceso]`,
 
 ## 8. Docker Engine
 * **Paso 1: Revision y desinstalación de paquetes en conflicto.**
+<img width="1305" height="620" alt="imagen" src="https://github.com/user-attachments/assets/3480628b-f3a0-4f4d-aa9f-3c8fb5ea0f26" />
 
 
 * **Paso 2: Configurar repositorio oficial.**
