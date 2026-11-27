@@ -91,9 +91,12 @@ Una por VM, llamada `instalacion-limpia`, tomada con la VM apagada y la instalac
 
 ## Código del sprint
 
-El docente publicó el código en el campus 48 horas antes del cierre. Lo guardamos en las dos VMs y lo mostramos en el video.
+Código asignado al Grupo 06: `YD06-MY5R`. Lo guardamos en el home del usuario principal de las dos VMs.
 
-Comandos: `echo "XX00-AB12" > codigo_sprint1.txt`, `cat codigo_sprint1.txt` y `date`
+Comandos: `echo "YD06-MY5R" > ~/codigo_sprint1.txt`, `cat ~/codigo_sprint1.txt` y `date`
+
+![Codigo sprint 1 grafica](img/Caps%20de%20g06-grafica/10-codigo-grafica-sprint01.png)
+![Codigo sprint 1 consola](img/caps%20de%20g06-consola/10-codigo-consola-sprint01.png)
 
 ## Video del sprint (3 minutos)
 
