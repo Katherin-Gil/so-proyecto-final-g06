@@ -108,10 +108,10 @@ Pantalla continua y sin cortes. Cada integrante muestra su parte, dice su nombre
 
 | Integrante | Qué hizo | Commits |
 | :--- | :--- | :--- |
-| Katherin | Creó las páginas del sitio, organizó las capturas y ajustó el formato | 3 |
+| Katherin | Creó las páginas del sitio, organizó las capturas y ajustó el formato | 4 |
 | Daniel | Instaló openSUSE Leap y Debian, configuró la red, SSH, las instantáneas y subió las capturas | 3 |
 | Dylan | Instaló las herramientas en Debian, grabó el video y completó las validaciones | 10 | 
-| Samuel | Instalación de doker engine y funcionando, revision de versiones y pruebas de creación, implementación SO Linux (Ubuntu) | 1 |
+| Samuel | Apoyo en la revisión de la instalación base de Linux (Ubuntu) | 1 |
 
 
 
